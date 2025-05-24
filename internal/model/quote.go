@@ -4,5 +4,5 @@ type Quote struct {
 	ID     int    `json:"-"`
 	UUID   string `json:"id"`
 	Author string `json:"author"`
-	Text   string `json:"text"`
+	Text   string `json:"quote"`
 }
